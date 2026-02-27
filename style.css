@@ -5,7 +5,7 @@
  }
   .navbar{
     height: 60px;
-    background-color: #07858e;
+    background-color: #000000;
     color: white;
     display: flex;
     align-items: center;
@@ -102,3 +102,28 @@
     font-size: 1rem;
    font-weight: bold; 
   }
+  /* panel */
+  .panel{
+    height: 40px;
+    display: flex;
+    background-color: #078f68c4;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .panel-ops p{
+    font-size: 0.85rem;
+    margin-left: 15px;
+  }
+  .panel-ops{
+    display: flex;
+    width: 70%;
+  }
+.panel-deals{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+/* hero section */
+.hero-section{
+  background-image: url(/images/hero_image.jpg);
+}
