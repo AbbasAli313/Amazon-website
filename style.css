@@ -126,4 +126,24 @@
 /* hero section */
 .hero-section{
   background-image: url(/images/hero_image.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+.hero-mess{
+  background-color: white;
+  color: black;
+  display: flex;
+  height: 40px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.hero-mess a{
+  color: #007185;
 }
